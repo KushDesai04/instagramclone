@@ -1,10 +1,11 @@
 import { Text, Box, VStack, Image, Input, Button, Flex } from '@chakra-ui/react'
 import { useNavigate } from 'react-router-dom'
+import { useState } from 'react';
 import React from 'react';
 const AuthForm = () => {
-  const [isLogin, setIsLogin] = React.useState(true)
+  const [isLogin, setIsLogin] = useState(true)
   const navigate = useNavigate()
-  const [inputs, setInputs] = React.useState({
+  const [inputs, setInputs] = useState({
     email: '',
     password: '',
     confirmPassword: ''

@@ -1,4 +1,3 @@
-
 import React from 'react'
 import PageLayout from './Layouts/PageLayouts/PageLayout'
 import AuthPage from './pages/AuthPage/AuthPage'
@@ -14,7 +13,7 @@ function App() {
         <Route path='/' element={<HomePage />}/>
         <Route path='/auth' element={<AuthPage />}/>
       </Routes>
-    </PageLayout> {/* Fix the closing tag */}
+    </PageLayout>
     </>
   )
 }
