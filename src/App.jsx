@@ -1,4 +1,5 @@
 
+import React from 'react'
 import PageLayout from './Layouts/PageLayouts/PageLayout'
 import AuthPage from './pages/AuthPage/AuthPage'
 import HomePage from './pages/HomePage/HomePage'
